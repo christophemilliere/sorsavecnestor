@@ -1,0 +1,6 @@
+framework module Pods_nestorUITests {
+  umbrella header "Pods-nestorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

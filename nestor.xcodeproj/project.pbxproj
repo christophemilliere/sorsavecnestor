@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B7E5DC661AF39B43188EBD5 /* Pods_nestorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9AE23DCA1FAD0DE4C63CE8 /* Pods_nestorUITests.framework */; };
+		65E2312097EB946B285EA29E /* Pods_nestorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A286B902B1E4B444D5369ADB /* Pods_nestorTests.framework */; };
+		D9260E4D1D95858A0070E2C2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9260E4C1D95858A0070E2C2 /* Event.swift */; };
+		D9260E501D9591410070E2C2 /* BlogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9260E4F1D9591410070E2C2 /* BlogController.swift */; };
+		D93CCAE11D98416100EAD39F /* MyTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CCAE01D98416100EAD39F /* MyTapGestureRecognizer.swift */; };
+		D93CCAE31D9841A800EAD39F /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CCAE21D9841A800EAD39F /* MapsController.swift */; };
+		D93CCAE51D986FAD00EAD39F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93CCAE41D986FAD00EAD39F /* MapKit.framework */; };
+		D93CCAE71D98F97100EAD39F /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CCAE61D98F97100EAD39F /* Station.swift */; };
+		D93CCAE91D9BDF5C00EAD39F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93CCAE81D9BDF5C00EAD39F /* Images.xcassets */; };
+		D965BF371D9C1A3D00C52368 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965BF361D9C1A3D00C52368 /* Schedule.swift */; };
+		D965BF3B1D9C33D100C52368 /* SchedulesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965BF3A1D9C33D100C52368 /* SchedulesTableViewCell.swift */; };
 		D99B7F191D93ED3200815227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B7F181D93ED3200815227 /* AppDelegate.swift */; };
-		D99B7F1B1D93ED3200815227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B7F1A1D93ED3200815227 /* ViewController.swift */; };
+		D99B7F1B1D93ED3200815227 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B7F1A1D93ED3200815227 /* MainViewController.swift */; };
 		D99B7F1E1D93ED3200815227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99B7F1C1D93ED3200815227 /* Main.storyboard */; };
-		D99B7F201D93ED3200815227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99B7F1F1D93ED3200815227 /* Assets.xcassets */; };
 		D99B7F231D93ED3200815227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99B7F211D93ED3200815227 /* LaunchScreen.storyboard */; };
 		D99B7F2E1D93ED3200815227 /* nestorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B7F2D1D93ED3200815227 /* nestorTests.swift */; };
 		D99B7F391D93ED3200815227 /* nestorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B7F381D93ED3200815227 /* nestorUITests.swift */; };
+		D9C422A21D9D3ABF0036CF28 /* SchedulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C422A11D9D3ABF0036CF28 /* SchedulesViewController.swift */; };
+		D9C422A41DA13DDB0036CF28 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C422A31DA13DDB0036CF28 /* RightViewController.swift */; };
+		D9C422A61DA3D4D70036CF28 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C422A51DA3D4D70036CF28 /* DefaultButton.swift */; };
+		D9C422A81DA93AD00036CF28 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C422A71DA93AD00036CF28 /* UIView.swift */; };
+		D9CDD8671D96B06200C5C762 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD8661D96B06200C5C762 /* UIColor.swift */; };
+		D9CDD86A1D96CABB00C5C762 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD8691D96CABB00C5C762 /* EventsTableViewCell.swift */; };
+		D9CDD86C1D96D8BF00C5C762 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD86B1D96D8BF00C5C762 /* Location.swift */; };
+		D9CDD8701D96F40800C5C762 /* DetailEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDD86F1D96F40800C5C762 /* DetailEventViewController.swift */; };
+		E39EB049A8FA16F039F48DAF /* Pods_nestor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADF6EE0F78A5137292E19AA /* Pods_nestor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +53,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8F738BFB550790C90B056A /* Pods-nestor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestor.release.xcconfig"; path = "Pods/Target Support Files/Pods-nestor/Pods-nestor.release.xcconfig"; sourceTree = "<group>"; };
+		191EE65551BE932B8F9FCE8E /* Pods-nestorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nestorTests/Pods-nestorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AEF28B6E8628A20A6185F4B /* Pods-nestor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nestor/Pods-nestor.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9AE23DCA1FAD0DE4C63CE8 /* Pods_nestorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nestorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADF6EE0F78A5137292E19AA /* Pods_nestor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nestor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A257EBF2919FEC2AFC2BE4F7 /* Pods-nestorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nestorUITests/Pods-nestorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A286B902B1E4B444D5369ADB /* Pods_nestorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nestorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A19B4E9C7509E97E5EF323 /* Pods-nestorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nestorTests/Pods-nestorTests.release.xcconfig"; sourceTree = "<group>"; };
+		D491EB9007FDB96429FDCB06 /* Pods-nestorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nestorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nestorUITests/Pods-nestorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9260E4C1D95858A0070E2C2 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D9260E4F1D9591410070E2C2 /* BlogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogController.swift; sourceTree = "<group>"; };
+		D93CCAE01D98416100EAD39F /* MyTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		D93CCAE21D9841A800EAD39F /* MapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
+		D93CCAE41D986FAD00EAD39F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D93CCAE61D98F97100EAD39F /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		D93CCAE81D9BDF5C00EAD39F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D965BF361D9C1A3D00C52368 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		D965BF3A1D9C33D100C52368 /* SchedulesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulesTableViewCell.swift; sourceTree = "<group>"; };
 		D99B7F151D93ED3200815227 /* nestor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nestor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99B7F181D93ED3200815227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D99B7F1A1D93ED3200815227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D99B7F1A1D93ED3200815227 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D99B7F1D1D93ED3200815227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D99B7F1F1D93ED3200815227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99B7F221D93ED3200815227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99B7F241D93ED3200815227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99B7F291D93ED3200815227 /* nestorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nestorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +83,14 @@
 		D99B7F341D93ED3200815227 /* nestorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nestorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99B7F381D93ED3200815227 /* nestorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nestorUITests.swift; sourceTree = "<group>"; };
 		D99B7F3A1D93ED3200815227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C422A11D9D3ABF0036CF28 /* SchedulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulesViewController.swift; sourceTree = "<group>"; };
+		D9C422A31DA13DDB0036CF28 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		D9C422A51DA3D4D70036CF28 /* DefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		D9C422A71DA93AD00036CF28 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		D9CDD8661D96B06200C5C762 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D9CDD8691D96CABB00C5C762 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		D9CDD86B1D96D8BF00C5C762 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D9CDD86F1D96F40800C5C762 /* DetailEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailEventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93CCAE51D986FAD00EAD39F /* MapKit.framework in Frameworks */,
+				E39EB049A8FA16F039F48DAF /* Pods_nestor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E2312097EB946B285EA29E /* Pods_nestorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +115,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7E5DC661AF39B43188EBD5 /* Pods_nestorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		760D1A49CB9DF0E6D99A1569 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AEF28B6E8628A20A6185F4B /* Pods-nestor.debug.xcconfig */,
+				0C8F738BFB550790C90B056A /* Pods-nestor.release.xcconfig */,
+				191EE65551BE932B8F9FCE8E /* Pods-nestorTests.debug.xcconfig */,
+				C1A19B4E9C7509E97E5EF323 /* Pods-nestorTests.release.xcconfig */,
+				A257EBF2919FEC2AFC2BE4F7 /* Pods-nestorUITests.debug.xcconfig */,
+				D491EB9007FDB96429FDCB06 /* Pods-nestorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B93067C9D1AC3EC23A6234C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D93CCAE41D986FAD00EAD39F /* MapKit.framework */,
+				9ADF6EE0F78A5137292E19AA /* Pods_nestor.framework */,
+				A286B902B1E4B444D5369ADB /* Pods_nestorTests.framework */,
+				6F9AE23DCA1FAD0DE4C63CE8 /* Pods_nestorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9260E4E1D9585930070E2C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9260E4C1D95858A0070E2C2 /* Event.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D9260E511D9591470070E2C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9260E4F1D9591410070E2C2 /* BlogController.swift */,
+				D9CDD8691D96CABB00C5C762 /* EventsTableViewCell.swift */,
+				D9CDD86B1D96D8BF00C5C762 /* Location.swift */,
+				D9CDD86F1D96F40800C5C762 /* DetailEventViewController.swift */,
+				D93CCAE01D98416100EAD39F /* MyTapGestureRecognizer.swift */,
+				D93CCAE21D9841A800EAD39F /* MapsController.swift */,
+				D93CCAE61D98F97100EAD39F /* Station.swift */,
+				D965BF361D9C1A3D00C52368 /* Schedule.swift */,
+				D965BF3A1D9C33D100C52368 /* SchedulesTableViewCell.swift */,
+				D9C422A11D9D3ABF0036CF28 /* SchedulesViewController.swift */,
+				D9C422A31DA13DDB0036CF28 /* RightViewController.swift */,
+				D9C422A51DA3D4D70036CF28 /* DefaultButton.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		D99B7F0C1D93ED3200815227 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +180,8 @@
 				D99B7F2C1D93ED3200815227 /* nestorTests */,
 				D99B7F371D93ED3200815227 /* nestorUITests */,
 				D99B7F161D93ED3200815227 /* Products */,
+				760D1A49CB9DF0E6D99A1569 /* Pods */,
+				7B93067C9D1AC3EC23A6234C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +199,13 @@
 			isa = PBXGroup;
 			children = (
 				D99B7F181D93ED3200815227 /* AppDelegate.swift */,
-				D99B7F1A1D93ED3200815227 /* ViewController.swift */,
+				D99B7F1A1D93ED3200815227 /* MainViewController.swift */,
+				D9CDD8681D96B07000C5C762 /* Extensions */,
+				D9260E4E1D9585930070E2C2 /* Models */,
 				D99B7F1C1D93ED3200815227 /* Main.storyboard */,
-				D99B7F1F1D93ED3200815227 /* Assets.xcassets */,
+				D9260E511D9591470070E2C2 /* Controllers */,
 				D99B7F211D93ED3200815227 /* LaunchScreen.storyboard */,
+				D93CCAE81D9BDF5C00EAD39F /* Images.xcassets */,
 				D99B7F241D93ED3200815227 /* Info.plist */,
 			);
 			path = nestor;
@@ -125,6 +229,15 @@
 			path = nestorUITests;
 			sourceTree = "<group>";
 		};
+		D9CDD8681D96B07000C5C762 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDD8661D96B06200C5C762 /* UIColor.swift */,
+				D9C422A71DA93AD00036CF28 /* UIView.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D99B7F3D1D93ED3200815227 /* Build configuration list for PBXNativeTarget "nestor" */;
 			buildPhases = (
+				A626F51156B8010F8AE03480 /* [CP] Check Pods Manifest.lock */,
 				D99B7F111D93ED3200815227 /* Sources */,
 				D99B7F121D93ED3200815227 /* Frameworks */,
 				D99B7F131D93ED3200815227 /* Resources */,
+				7EB5FC81874E31DD96E1D2FC /* [CP] Embed Pods Frameworks */,
+				60193151DE3C2DEF9D7DB94E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D99B7F401D93ED3200815227 /* Build configuration list for PBXNativeTarget "nestorTests" */;
 			buildPhases = (
+				F1BE95F14A62BDF2F069E079 /* [CP] Check Pods Manifest.lock */,
 				D99B7F251D93ED3200815227 /* Sources */,
 				D99B7F261D93ED3200815227 /* Frameworks */,
 				D99B7F271D93ED3200815227 /* Resources */,
+				B5563FDC1B8402B9A85A4E15 /* [CP] Embed Pods Frameworks */,
+				45F03451DD8A4DCDE8ED6681 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D99B7F431D93ED3200815227 /* Build configuration list for PBXNativeTarget "nestorUITests" */;
 			buildPhases = (
+				B20A755EF54B991B40ACDCC3 /* [CP] Check Pods Manifest.lock */,
 				D99B7F301D93ED3200815227 /* Sources */,
 				D99B7F311D93ED3200815227 /* Frameworks */,
 				D99B7F321D93ED3200815227 /* Resources */,
+				DFA44B217431EFF47B4551F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,20 +309,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = milliere;
 				TargetAttributes = {
 					D99B7F141D93ED3200815227 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2Y9T8BV3FX;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					D99B7F281D93ED3200815227 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D99B7F141D93ED3200815227;
 					};
 					D99B7F331D93ED3200815227 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D99B7F141D93ED3200815227;
 					};
@@ -232,8 +357,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93CCAE91D9BDF5C00EAD39F /* Images.xcassets in Resources */,
 				D99B7F231D93ED3200815227 /* LaunchScreen.storyboard in Resources */,
-				D99B7F201D93ED3200815227 /* Assets.xcassets in Resources */,
 				D99B7F1E1D93ED3200815227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +379,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45F03451DD8A4DCDE8ED6681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestorTests/Pods-nestorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60193151DE3C2DEF9D7DB94E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestor/Pods-nestor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB5FC81874E31DD96E1D2FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestor/Pods-nestor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A626F51156B8010F8AE03480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B20A755EF54B991B40ACDCC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5563FDC1B8402B9A85A4E15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestorTests/Pods-nestorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA44B217431EFF47B4551F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nestorUITests/Pods-nestorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1BE95F14A62BDF2F069E079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D99B7F111D93ED3200815227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D99B7F1B1D93ED3200815227 /* ViewController.swift in Sources */,
+				D9CDD86A1D96CABB00C5C762 /* EventsTableViewCell.swift in Sources */,
+				D9260E501D9591410070E2C2 /* BlogController.swift in Sources */,
+				D9C422A41DA13DDB0036CF28 /* RightViewController.swift in Sources */,
+				D99B7F1B1D93ED3200815227 /* MainViewController.swift in Sources */,
+				D9260E4D1D95858A0070E2C2 /* Event.swift in Sources */,
+				D93CCAE31D9841A800EAD39F /* MapsController.swift in Sources */,
 				D99B7F191D93ED3200815227 /* AppDelegate.swift in Sources */,
+				D965BF371D9C1A3D00C52368 /* Schedule.swift in Sources */,
+				D9C422A21D9D3ABF0036CF28 /* SchedulesViewController.swift in Sources */,
+				D9CDD8671D96B06200C5C762 /* UIColor.swift in Sources */,
+				D93CCAE11D98416100EAD39F /* MyTapGestureRecognizer.swift in Sources */,
+				D9C422A81DA93AD00036CF28 /* UIView.swift in Sources */,
+				D965BF3B1D9C33D100C52368 /* SchedulesTableViewCell.swift in Sources */,
+				D93CCAE71D98F97100EAD39F /* Station.swift in Sources */,
+				D9CDD8701D96F40800C5C762 /* DetailEventViewController.swift in Sources */,
+				D9CDD86C1D96D8BF00C5C762 /* Location.swift in Sources */,
+				D9C422A61DA3D4D70036CF28 /* DefaultButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +596,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -355,7 +619,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -382,6 +646,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -398,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -408,11 +673,14 @@
 		};
 		D99B7F3E1D93ED3200815227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEF28B6E8628A20A6185F4B /* Pods-nestor.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Y9T8BV3FX;
 				INFOPLIST_FILE = nestor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.domain.app.sorsavecnestor.nestor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.app.sorsavecnestor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -420,11 +688,14 @@
 		};
 		D99B7F3F1D93ED3200815227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8F738BFB550790C90B056A /* Pods-nestor.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Y9T8BV3FX;
 				INFOPLIST_FILE = nestor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.domain.app.sorsavecnestor.nestor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.app.sorsavecnestor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,6 +703,7 @@
 		};
 		D99B7F411D93ED3200815227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191EE65551BE932B8F9FCE8E /* Pods-nestorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +718,7 @@
 		};
 		D99B7F421D93ED3200815227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A19B4E9C7509E97E5EF323 /* Pods-nestorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +733,7 @@
 		};
 		D99B7F441D93ED3200815227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A257EBF2919FEC2AFC2BE4F7 /* Pods-nestorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = nestorUITests/Info.plist;
@@ -473,6 +747,7 @@
 		};
 		D99B7F451D93ED3200815227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D491EB9007FDB96429FDCB06 /* Pods-nestorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = nestorUITests/Info.plist;
@@ -503,6 +778,7 @@
 				D99B7F3F1D93ED3200815227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D99B7F401D93ED3200815227 /* Build configuration list for PBXNativeTarget "nestorTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +787,7 @@
 				D99B7F421D93ED3200815227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D99B7F431D93ED3200815227 /* Build configuration list for PBXNativeTarget "nestorUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +796,7 @@
 				D99B7F451D93ED3200815227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
